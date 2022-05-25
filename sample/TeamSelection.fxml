@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NavigationController">
+   <children>
+      <ImageView fitHeight="537.0" fitWidth="701.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../360_F_351640472_mSYvAAIPivRfMMxp1UblD4RvHhBEBwVn.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="126.0" prefHeight="69.0" prefWidth="406.0" text=" CRICKET WARRIOR " textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Engravers MT" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="69.0" prefHeight="58.0" prefWidth="617.0" text="THESE ARE THE AVAILABLE TEAMS SELECT THE TEAM.....">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="Chennai" layoutX="67.0" layoutY="177.0" mnemonicParsing="false" onAction="#Displaychennai" prefHeight="21.0" prefWidth="192.0" text="CHENNAI SUPER KINGS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Mumbai" layoutX="67.0" layoutY="224.0" mnemonicParsing="false" onAction="#DisplayMumbai" text="MUMBAI INDIANS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Rajasthan" layoutX="68.0" layoutY="274.0" mnemonicParsing="false" onAction="#DisplayRajasthan" text="RAJASTHAN ROYALS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Kolkata" layoutX="68.0" layoutY="326.0" mnemonicParsing="false" onAction="#Displaykolkata" text="KOLKATA NIGHT RIDERS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Kandy" layoutX="347.0" layoutY="178.0" mnemonicParsing="false" onAction="#Displaykandy" text="KANDY TUSKERS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Uthura" layoutX="347.0" layoutY="224.0" mnemonicParsing="false" onAction="#Displayuthura" text="UTHURA RIDERS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Uva" layoutX="347.0" layoutY="273.0" mnemonicParsing="false" onAction="#DisplayUva" prefHeight="21.0" prefWidth="107.0" text="UVA NEXT">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="Wayamba" layoutX="345.0" layoutY="326.0" mnemonicParsing="false" onAction="#DisplayWayamba" text="WAYAMBA UNITED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <Label layoutX="77.0" layoutY="127.0" prefHeight="29.0" prefWidth="97.0" text="GROUP A">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="379.0" layoutY="126.0" text="GROUP B">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
